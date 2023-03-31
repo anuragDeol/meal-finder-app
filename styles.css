@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bahnschrift', sans-serif;
+    width: 100%;
+    background-color: #d7d7b6;
+}
+
+/* nav bar */
+#nav {
+    background-color: rgb(192, 192, 155);
+    opacity: 96%;
+    padding: 0.6% 1%;
+}
+
+/* search bar */
+#search-bar {
+    max-width: 800px;
+}
+
+#search-bar input {
+    margin-top: 15%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(254, 254, 242);
+}
+
+
+/* meal card */
+#card {
+    background-color: #bbb697;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    max-height:60%;
+}
+
+#card-img-container {
+    overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.2s ease-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.card-body {
+    overflow: hidden;
+}
+
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#bbb697;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 3px solid rgb(215,215,182);
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+#meal-details-back-btn:hover {
+    background-color: rgb(215,215,182);
+    transition: 0.2s;
+}
+
+/* favorites*/
+#favorites-body{
+    background-color:rgb(215,215,182);
+}
+
+.offcanvas-header {
+    background-color:rgb(192, 192, 155);
+}
+
+/* main */
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#main-no-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    opacity: 60%;
+    justify-content: center;
+    font-size: 2rem; 
+    padding: 12%; 
+    border-radius: 20px;
+}
